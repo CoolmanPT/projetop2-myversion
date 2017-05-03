@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="188.11666666666656" y="180.0">pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.Objetivo</node>
+    <node x="752.8416666666665" y="350.0">pt.ipleiria.estg.ei.p2.blast.modelo.DelegadoEspecie</node>
+    <node x="235.625" y="270.0">pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.ObjetivoJogo</node>
+    <node x="1622.2166666666665" y="350.0">pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Madeira</node>
+    <node x="1235.9666666666665" y="270.0">pt.ipleiria.estg.ei.p2.blast.modelo.Jogo</node>
+    <node x="375.625" y="270.0">pt.ipleiria.estg.ei.p2.blast.modelo.bases.BaseAr</node>
+    <node x="587.8416666666665" y="270.0">pt.ipleiria.estg.ei.p2.blast.modelo.bases.BaseSuportadora</node>
+    <node x="1630.6621212121208" y="80.0">pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Suportado</node>
+    <node x="155.0" y="425.0">pt.ipleiria.estg.ei.p2.blast.modelo.Especie</node>
+    <node x="914.9666666666665" y="350.0">pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Balao</node>
+    <node x="1116.4583333333333" y="180.0">pt.ipleiria.estg.ei.p2.blast.modelo.Iteravel</node>
+    <node x="746.8416666666665" y="270.0">pt.ipleiria.estg.ei.p2.blast.modelo.ObjetoComEspecie</node>
+    <node x="1756.9666666666665" y="270.0">pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Vidro</node>
+    <node x="1309.9666666666665" y="180.0">pt.ipleiria.estg.ei.p2.blast.modelo.InterativoPosicao</node>
+    <node x="1075.137121212121" y="0.0">pt.ipleiria.estg.ei.p2.blast.modelo.ReagenteFoguete</node>
+    <node x="1609.2083333333333" y="180.0">pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoSensivelOndaChoque</node>
+    <node x="770.625" y="80.0">pt.ipleiria.estg.ei.p2.blast.modelo.ObjetoComAreaJogavel</node>
+    <node x="1050.0371212121206" y="80.0">pt.ipleiria.estg.ei.p2.blast.modelo.SensivelOndaChoque</node>
+    <node x="1463.9666666666665" y="270.0">pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoSensivelOndaChoqueComForca</node>
+    <node x="771.125" y="180.0">pt.ipleiria.estg.ei.p2.blast.modelo.Interativo</node>
+    <node x="927.9666666666665" y="270.0">pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoAgrupavel</node>
+    <node x="228.66212121212118" y="350.0">pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.ObjetivoParcialBalao</node>
+    <node x="1106.9666666666665" y="270.0">pt.ipleiria.estg.ei.p2.blast.modelo.Objetivavel</node>
+    <node x="85.625" y="270.0">pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.ObjetivoParcial</node>
+    <node x="1013.9666666666665" y="350.0">pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Foguete</node>
+    <node x="1168.4666666666665" y="350.0">pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Porco</node>
+    <node x="0.0" y="425.0">pt.ipleiria.estg.ei.p2.blast.modelo.EstadoJogo</node>
+    <node x="1330.9666666666665" y="270.0">pt.ipleiria.estg.ei.p2.blast.modelo.AreaJogavel</node>
+    <node x="0.0" y="350.0">pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.ObjetivoParcialPorco</node>
+    <node x="400.125" y="180.0">pt.ipleiria.estg.ei.p2.blast.modelo.bases.Base</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.AreaJogavel" target="pt.ipleiria.estg.ei.p2.blast.modelo.InterativoPosicao">
+      <point x="28.25" y="-15.0" />
+      <point x="35.25" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.ObjetivoParcial" target="pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.Objetivo">
+      <point x="0.0" y="-15.0" />
+      <point x="150.625" y="250.0" />
+      <point x="211.86666666666656" y="250.0" />
+      <point x="-23.75" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.bases.BaseSuportadora" target="pt.ipleiria.estg.ei.p2.blast.modelo.Interativo">
+      <point x="27.799999999999955" y="-15.0" />
+      <point x="685.1416666666664" y="230.0" />
+      <point x="796.125" y="230.0" />
+      <point x="-25.0" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.bases.BaseSuportadora" target="pt.ipleiria.estg.ei.p2.blast.modelo.SensivelOndaChoque">
+      <point x="0.0" y="-15.0" />
+      <point x="657.3416666666665" y="250.0" />
+      <point x="645.0916666666665" y="250.0" />
+      <point x="645.0916666666665" y="150.0" />
+      <point x="1090.7871212121206" y="150.0" />
+      <point x="-40.75" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.Jogo" target="pt.ipleiria.estg.ei.p2.blast.modelo.ObjetoComAreaJogavel">
+      <point x="0.0" y="-15.0" />
+      <point x="1273.4666666666665" y="250.0" />
+      <point x="1282.7166666666665" y="250.0" />
+      <point x="1282.7166666666665" y="140.0" />
+      <point x="901.875" y="140.0" />
+      <point x="43.75" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.bases.BaseSuportadora" target="pt.ipleiria.estg.ei.p2.blast.modelo.Iteravel">
+      <point x="55.59999999999991" y="-15.0" />
+      <point x="712.9416666666664" y="240.0" />
+      <point x="1127.4583333333333" y="240.0" />
+      <point x="-33.0" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoAgrupavel" target="pt.ipleiria.estg.ei.p2.blast.modelo.Interativo">
+      <point x="-53.0" y="-15.0" />
+      <point x="954.4666666666665" y="230.0" />
+      <point x="846.125" y="230.0" />
+      <point x="25.0" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoSensivelOndaChoque" target="pt.ipleiria.estg.ei.p2.blast.modelo.SensivelOndaChoque">
+      <point x="-54.500000000000455" y="-15.0" />
+      <point x="1663.7083333333328" y="130.0" />
+      <point x="1172.2871212121206" y="130.0" />
+      <point x="40.75" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.bases.BaseSuportadora" target="pt.ipleiria.estg.ei.p2.blast.modelo.ReagenteFoguete">
+      <point x="-27.799999999999955" y="-15.0" />
+      <point x="629.5416666666665" y="240.0" />
+      <point x="512.375" y="240.0" />
+      <point x="512.375" y="55.0" />
+      <point x="1110.637121212121" y="55.0" />
+      <point x="-35.5" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.Jogo" target="pt.ipleiria.estg.ei.p2.blast.modelo.Iteravel">
+      <point x="-25.0" y="-15.0" />
+      <point x="1248.4666666666665" y="250.0" />
+      <point x="1171.4583333333333" y="250.0" />
+      <point x="11.0" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoSensivelOndaChoqueComForca" target="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoSensivelOndaChoque">
+      <point x="0.0" y="-15.0" />
+      <point x="1600.4666666666665" y="250.0" />
+      <point x="1663.7083333333333" y="250.0" />
+      <point x="-54.5" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Porco" target="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoSensivelOndaChoqueComForca">
+      <point x="20.25" y="-15.0" />
+      <point x="1229.2166666666665" y="330.0" />
+      <point x="1532.2166666666665" y="330.0" />
+      <point x="-68.25" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.Jogo" target="pt.ipleiria.estg.ei.p2.blast.modelo.InterativoPosicao">
+      <point x="25.0" y="-15.0" />
+      <point x="1298.4666666666665" y="250.0" />
+      <point x="1345.2166666666665" y="250.0" />
+      <point x="-35.25" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Balao" target="pt.ipleiria.estg.ei.p2.blast.modelo.ObjetoComEspecie">
+      <point x="-26.333333333333258" y="-15.0" />
+      <point x="928.1333333333332" y="330.0" />
+      <point x="872.6749999999997" y="330.0" />
+      <point x="50.33333333333326" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoAgrupavel" target="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Suportado">
+      <point x="0.0" y="-15.0" />
+      <point x="1007.4666666666665" y="230.0" />
+      <point x="1003.4666666666665" y="230.0" />
+      <point x="1003.4666666666665" y="160.0" />
+      <point x="1656.9121212121208" y="160.0" />
+      <point x="-26.25" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.ObjetivoParcialBalao" target="pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.ObjetivoParcial">
+      <point x="-39.75" y="-15.0" />
+      <point x="268.4121212121212" y="330.0" />
+      <point x="183.125" y="330.0" />
+      <point x="32.5" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Madeira" target="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoSensivelOndaChoqueComForca">
+      <point x="0.0" y="-15.0" />
+      <point x="68.25" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoAgrupavel" target="pt.ipleiria.estg.ei.p2.blast.modelo.Iteravel">
+      <point x="53.0" y="-15.0" />
+      <point x="1060.4666666666665" y="250.0" />
+      <point x="1149.4583333333333" y="250.0" />
+      <point x="-11.0" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Porco" target="pt.ipleiria.estg.ei.p2.blast.modelo.Objetivavel">
+      <point x="-20.25" y="-15.0" />
+      <point x="27.25" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.AreaJogavel" target="pt.ipleiria.estg.ei.p2.blast.modelo.Iteravel">
+      <point x="-28.25" y="-15.0" />
+      <point x="1359.2166666666665" y="240.0" />
+      <point x="1193.4583333333333" y="240.0" />
+      <point x="33.0" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoSensivelOndaChoque" target="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Suportado">
+      <point x="54.499999999999545" y="-15.0" />
+      <point x="1772.7083333333328" y="160.0" />
+      <point x="1709.4121212121208" y="160.0" />
+      <point x="26.25" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.ObjetivoParcialPorco" target="pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.ObjetivoParcial">
+      <point x="0.0" y="-15.0" />
+      <point x="80.5" y="330.0" />
+      <point x="118.125" y="330.0" />
+      <point x="-32.5" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.DelegadoEspecie" target="pt.ipleiria.estg.ei.p2.blast.modelo.ObjetoComEspecie">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.bases.BaseSuportadora" target="pt.ipleiria.estg.ei.p2.blast.modelo.bases.Base">
+      <point x="-55.59999999999991" y="-15.0" />
+      <point x="601.7416666666666" y="250.0" />
+      <point x="455.625" y="250.0" />
+      <point x="18.5" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Balao" target="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoAgrupavel">
+      <point x="0.0" y="-15.0" />
+      <point x="954.4666666666665" y="330.0" />
+      <point x="967.7166666666665" y="330.0" />
+      <point x="-39.75" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Balao" target="pt.ipleiria.estg.ei.p2.blast.modelo.Objetivavel">
+      <point x="26.333333333333258" y="-15.0" />
+      <point x="980.7999999999997" y="330.0" />
+      <point x="1134.2166666666665" y="330.0" />
+      <point x="-27.25" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Vidro" target="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoSensivelOndaChoque">
+      <point x="0.0" y="-15.0" />
+      <point x="1795.9666666666665" y="250.0" />
+      <point x="1772.7083333333333" y="250.0" />
+      <point x="54.5" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.ObjetivoParcialBalao" target="pt.ipleiria.estg.ei.p2.blast.modelo.ObjetoComEspecie">
+      <point x="39.75" y="-15.0" />
+      <point x="347.9121212121212" y="330.0" />
+      <point x="772.0083333333332" y="330.0" />
+      <point x="-50.33333333333326" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Suportado" target="pt.ipleiria.estg.ei.p2.blast.modelo.ReagenteFoguete">
+      <point x="0.0" y="-15.0" />
+      <point x="1683.1621212121208" y="55.0" />
+      <point x="1181.637121212121" y="55.0" />
+      <point x="35.5" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.Foguete" target="pt.ipleiria.estg.ei.p2.blast.modelo.suportados.SuportadoAgrupavel">
+      <point x="0.0" y="-15.0" />
+      <point x="1060.4666666666665" y="320.0" />
+      <point x="1047.2166666666665" y="320.0" />
+      <point x="39.75" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.ObjetivoJogo" target="pt.ipleiria.estg.ei.p2.blast.modelo.objetivos.Objetivo">
+      <point x="0.0" y="-15.0" />
+      <point x="295.625" y="250.0" />
+      <point x="259.36666666666656" y="250.0" />
+      <point x="23.75" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.bases.BaseAr" target="pt.ipleiria.estg.ei.p2.blast.modelo.bases.Base">
+      <point x="0.0" y="-15.0" />
+      <point x="-18.5" y="15.0" />
+    </edge>
+    <edge source="pt.ipleiria.estg.ei.p2.blast.modelo.bases.Base" target="pt.ipleiria.estg.ei.p2.blast.modelo.ObjetoComAreaJogavel">
+      <point x="0.0" y="-15.0" />
+      <point x="437.125" y="140.0" />
+      <point x="814.375" y="140.0" />
+      <point x="-43.75" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="940.0202020202014" y="208.81818181818147" />
+  <SelectedNodes>
+    <node>pt.ipleiria.estg.ei.p2.blast.modelo.bases.Base</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
