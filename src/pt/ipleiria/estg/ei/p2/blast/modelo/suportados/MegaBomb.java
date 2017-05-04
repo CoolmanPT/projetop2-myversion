@@ -1,5 +1,6 @@
 package pt.ipleiria.estg.ei.p2.blast.modelo.suportados;
 
+import pt.ipleiria.estg.ei.p2.blast.modelo.EstadoJogo;
 import pt.ipleiria.estg.ei.p2.blast.modelo.bases.BaseSuportadora;
 
 import java.util.List;
@@ -14,6 +15,7 @@ public class MegaBomb extends Suportado implements Reagente {
 
     private void explodirTudo(){
         destruirLinhaColuna();
+
     }
 
 
@@ -30,7 +32,8 @@ public class MegaBomb extends Suportado implements Reagente {
         List<BaseSuportadora> bases = baseSuportadora.getAreaJogavel().getAllThings();
         for (BaseSuportadora base : bases) {
             base.libertarSuportado();
-            getJogo().getEstadoJogo();
+            getJogo().incrementarPontuacao(5);
+            getJogo().setEstadoJogo(EstadoJogo.CONCLUIDO_VITORIA);
         }
     }
 

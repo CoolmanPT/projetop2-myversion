@@ -34,6 +34,7 @@ public class Main {
                     jogadaValida = jogo.interagir(jogada.getLinha(), jogada.getColuna());
                     if (!jogadaValida)
                         representadorTextual.representarJogadaInvalida(jogada.getLinha(), jogada.getColuna());
+                    representadorTextual.representar();
                 } while (!jogadaValida);
 
             } catch (IOException e) {

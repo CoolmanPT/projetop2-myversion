@@ -254,9 +254,12 @@ public class AreaJogavel implements Iteravel, InterativoPosicao {
         List<BaseSuportadora> bases = new ArrayList<>();
         for (int i = 0; i < NIVEL.length; i++){
             for (int j = 0; j <NIVEL[0].length; j++){
-                bases.add(getBaseSuportadora(i,j));
+                if (getBaseSuportadora(i,j) != null){
+                    bases.add(getBaseSuportadora(i,j));
+                }
             }
         }
         return bases;
     }
+
 }

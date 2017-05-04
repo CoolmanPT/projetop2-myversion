@@ -17,6 +17,10 @@ public class Jogo extends ObjetoComAreaJogavel implements Iteravel, InterativoPo
     private ObjetivoJogo objetivoJogo;
     private List<OuvinteJogo> ouvintes;
 
+    public void setEstadoJogo(EstadoJogo estadoJogo) {
+        this.estadoJogo = estadoJogo;
+    }
+
     public Jogo() {
         super(new AreaJogavel());
         estadoJogo = EstadoJogo.A_DECORRER;
