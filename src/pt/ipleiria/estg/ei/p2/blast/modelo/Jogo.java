@@ -12,7 +12,7 @@ import java.util.List;
 
 public class Jogo extends ObjetoComAreaJogavel implements Iteravel, InterativoPosicao {
     private EstadoJogo estadoJogo;
-    private int pontuacao;
+    private long pontuacao;
     private int numeroMovimentosRestantes;
     private ObjetivoJogo objetivoJogo;
     private List<OuvinteJogo> ouvintes;
@@ -33,7 +33,7 @@ public class Jogo extends ObjetoComAreaJogavel implements Iteravel, InterativoPo
         ouvintes = new ArrayList<>();
     }
 
-    public int getPontuacao() {
+    public long getPontuacao() {
         return pontuacao;
     }
 

@@ -32,9 +32,10 @@ public class MegaBomb extends Suportado implements Reagente {
         List<BaseSuportadora> bases = baseSuportadora.getAreaJogavel().getAllThings();
         for (BaseSuportadora base : bases) {
             base.libertarSuportado();
-            getJogo().incrementarPontuacao(5);
+
             getJogo().setEstadoJogo(EstadoJogo.CONCLUIDO_VITORIA);
         }
+        getJogo().incrementarPontuacao(3000);
     }
 
 
